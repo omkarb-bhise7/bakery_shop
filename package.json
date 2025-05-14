@@ -1,0 +1,20 @@
+{
+  "name": "bakery_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "react-scripts start",
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "html2pdf.js": "^0.10.3",
+    "react-select": "^5.10.1"
+  }
+}
